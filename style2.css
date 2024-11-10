@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 15px;
+    background-color:#6189FF;
+    color: #fff;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    gap: 20px;
+}
+
+section.informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+}
+
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.calendario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 40px;
+    background-color: #F9F9F9;
+}
+
+.mes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navegar {
+    background-color: #e9ecef;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+}
+
+th, td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.dia {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.dia:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.disabled {
+    background-color: #e9ecef;
+}
+
+.horario {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.selecionar-horario {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.alterar-horario {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+section.detalhes {
+    max-width: 250px;
+}
+
+.abas {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.aba {
+    padding: 10px;
+}
+
+.aba.ativa {
+    border-bottom: 2px solid #007bff;
+    font-weight: bold;
+}
+
+.informacao {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+#tituloClinica{
+    font-size: 20px;
+}
+
+
+.cadastro {
+    background-color: #4CAAA5;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cadastro p {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.cadastro input, .cadastro select {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.enviar {
+    padding: 10px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.enviar:hover {
+    background-color: #003f8a;
+}
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Controla o espaço entre o checkbox e o texto */
+}
+
+.checkbox input[type="checkbox"] {
+    margin: 10px;
+    padding: 0;
+    width: 19px; /* Ajuste o tamanho do checkbox conforme necessário */
+    height: 19px;
+}
+
+.checkbox label {
+    font-size: 0.9em; /* Tamanho da fonte do texto */
+    color: #ffffff; /* Cor do texto */
+}
+
+.checkbox a {
+    color: #3560ee; /* Cor dos links */
+    text-decoration: underline; /* Estilo do link */
+}

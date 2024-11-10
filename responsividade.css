@@ -1,0 +1,14 @@
+@media (min-width:300px) and (max-width:799px){
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .detalhes{
+        display: none;
+    }
+    .informacoes{
+        display: flex;
+        justify-content: center;
+        margin-left: 5%;
+    }
+}
